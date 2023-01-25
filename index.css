@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Righteous";
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url('./fonte/Righteous.ttf');
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foto{
+    margin: 20px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+nav{
+     
+     margin: 10px;
+     padding: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+li a:hover{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: large;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 15px;
+}
+
+main{
+    justify-content: center;
+    
+}
+.branco, .legenda, .texto{
+    color: aliceblue;
+}
+.galeria{
+    border: solid white;
+    width: 300px;
+    margin: 10px;
+    border-radius: 20px;    
+}
+
+.legenda{
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.coluna-row{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(./imagens/wallpaper.jpg);
+    background-size: cover;
+}
+
+.coluna-row2{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(./imagens/wallpaper.jpg);
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 412px){
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    
+    li a{
+        text-decoration: none;
+        padding: 10px;
+        font-size: large;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 15px;
+    }
+
+    li a:hover{
+        text-decoration: none;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: large;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 15px;
+    }
+
+    .coluna {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+  }
+
+  .coluna-row {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(./imagens/wallpaper.jpg);
+    background-size: cover;
+}
+
+.coluna-row2 {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url(./imagens/wallpaper.jpg);
+    background-size: cover;
+}
+
+}
+@media screen and (max-height: 555px){
+    .contato{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
